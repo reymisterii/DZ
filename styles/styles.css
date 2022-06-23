@@ -53,13 +53,15 @@ body {
 }
 .nav-text:hover,
 .nav-text:focus,
-.nav-text:active,
-.nav-text:visited {
+.nav-text:active {
+    color: var(--btn-logo-fh-color);
+}
+.nav-text.current {
     color: var(--btn-logo-fh-color);
 }
 .mailoaddres {
     color: var(--address-color);
-    font-weight:500;
+    font-weight:normal;
     font-style: normal;
     letter-spacing: 0.02em;
 }
@@ -108,7 +110,7 @@ ul {
     line-height: 1.625;
     font-weight:500;
     color: var(--text-color);
-    background-color: var(--white-color);
+    background-color: var(--main-nextfon-color);
     border: 0;
     padding: 6px 22px;
     border-radius: 4px;
@@ -145,11 +147,12 @@ ul {
     color: var(--text-color);
 }
 .card-title > p {
+    font-size: 16px;
     line-height: 1.1875;
     color: var(--address-color);
 }
 .section-two  h2 {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
 }
 .section-two > p {
@@ -159,9 +162,10 @@ ul {
     color: var(--white-color);
 }
 .item > h2 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 2;
     color: var(--text-color);
+    letter-spacing: 0.06em;
 }
 .item > p {
     font-size: 16px;
