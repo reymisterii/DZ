@@ -10,48 +10,54 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <!-- шабка сайта -->
     <div class="conteiner">
-    <nav class="nav-list">
-      <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
-        ><span class="color-one">Web</span
-        ><span class="color-black">Studio</span></a
-      >
+      <div class="header-items">
+      <nav class="nav-list">
+        <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
+          ><span class="color-one">Web</span
+          ><span class="color-black">Studio</span></a
+        >
+        <ul>
+          <!-- логотип ВЕБ СТУДИЯ -->
+          <li>
+            <a href="./index.html" class="nav-text">Студия</a>
+          </li>
+          <li>
+            <a href="./portfolio.html" class="nav-text current">Портфолио</a>
+          </li>
+          <li>
+            <a href="#" class="nav-text">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- контакты: меил, мобильный -->
       <ul>
-        <!-- логотип ВЕБ СТУДИЯ -->
-        <li>
-          <a href="./index.html" class="nav-text">Студия</a>
+        <li class="mailoaddres">
+          <a href="mailto:info@devstudio.com" class="mailoaddres"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="./portfolio.html" class="nav-text current">Портфолио</a>
-        </li>
-        <li>
-          <a href="#" class="nav-text">Контакты</a>
+          <a href="tel:+380961111111" class="mailoaddres">+38 096 111 11 11</a>
         </li>
       </ul>
-    </nav>
-    <!-- контакты: меил, мобильный -->
-    <ul>
-      <li class="mailoaddres">
-        <a href="mailto:info@devstudio.com" class="mailoaddres"
-          >info@devstudio.com</a
-        >
-      </li>
-      <li>
-        <a href="tel:+380961111111" class="mailoaddres">+38 096 111 11 11</a>
-      </li>
-    </ul>
+    </div>
   </div>
     <!-- заказать услугу -->
     <main>
       <div class="conteiner">
       <section class="section">
         <h1 class="invisible-text">перечислены кнопки на сайте</h1>
-        <ul>
+        <ul class="btn-items">
           <li>
             <button class="btn" type="button" value="Все">Все</button>
           </li>
@@ -74,10 +80,11 @@
             </button>
           </li>
         </ul>
+      </div>
       </section>
       <section class="section-two">
         <h1 class="invisible-text">портфолио готовых работ</h1>
-        <ul>
+        <ul class="items">
           <li class="item">
             <img
               src="./imeges/imgp.jpg"
@@ -164,7 +171,7 @@
     </div>
     </main>
     <footer class="conteiner-two">
-      <dir class="conteiner">
+      <div class="conteiner">
       <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
         ><span class="color-one">Web</span
         ><span class="color-white">Studio</span></a
@@ -188,7 +195,7 @@
           </li>
         </ul>
       </address>
-    </dir>
+    </div>
     </footer>
   </body>
 </html>

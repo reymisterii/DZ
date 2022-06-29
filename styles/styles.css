@@ -60,7 +60,6 @@ body {
 .nav-list {
     display: flex;
     margin-top: 32px;
-    margin-bottom: 50px;
 }
 .nav-list li {
     display: inline;
@@ -68,10 +67,11 @@ body {
 .section-one {
     background-color: var(--main-fon-color);
     text-decoration: none;
-    width: 1600px;
+    width: auto;
     height: 600px;
 }
 .conteiner-two {
+    height: 252px;
     background-color: var(--main-fon-color);
     text-decoration: none;
 }
@@ -144,7 +144,13 @@ ul {
     border: 0;
     padding: 10px 32px;
     border-radius: 4px;
-    margin-left: 700px;
+    margin: 0 auto;
+    display: block;
+}
+.btn-items {
+    display: flax;
+    justify-content: space-between;
+    align-items: center;
 }
 .btn {
     font-size: 16px;
@@ -161,6 +167,18 @@ ul {
     color: var(--white-color);
     background-color: var(--btn-logo-fh-color);
     cursor: pointer;
+}
+.items {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item {
+    border: 1px solid var(--address-color);
+    /* margin: 30px; */ 
 }
 .about-items {
     margin-top: 94px;
@@ -198,6 +216,11 @@ ul {
     display: flex;
 }
 .card {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     padding-bottom: 64px;
 }
@@ -244,18 +267,15 @@ ul {
     line-height: 1.875;
     font-style: normal;
 }
-.end {
-   height: 252px;
-}
 .color-one-end {
     font-family: 'Raleway', sans-serif;
     color: var(--btn-logo-fh-color);
     font-weight: 700;
-    padding-top: 60px;
+    margin-top: 60px;
 }
 .color-white-end {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: var(--white-color);
-    padding-top: 60px;
+    margin-top: 60px;
 }
