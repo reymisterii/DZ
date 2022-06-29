@@ -1,4 +1,3 @@
-
 :root {
 --main-fon-color: #2F303A;
 --btn-logo-fh-color: #2196F3;
@@ -8,6 +7,14 @@
 --logo-color: #000000;
 --main-nextfon-color: #F5F4FA;
 }
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--address-color);
@@ -15,10 +22,22 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
 }
+.conteiner {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-items {
+    display: flex;
+}
 .logo {
     font-size: 26px;
     line-height:1.19231;
     text-decoration: none;
+    margin-top: 24px;
+    margin-right: 43px;
 }
 .color-one {
     font-family: 'Raleway', sans-serif;
@@ -36,7 +55,20 @@ body {
 .list {
     list-style: none;
 }
-.section-one,
+.nav-list {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.nav-list li {
+    display: inline;
+}
+.section-one {
+    background-color: var(--main-fon-color);
+    text-decoration: none;
+    width: 1600px;
+    height: 600px;
+}
 .conteiner-two {
     background-color: var(--main-fon-color);
     text-decoration: none;
@@ -50,6 +82,7 @@ body {
     font-weight:500;
     cursor: pointer;
     letter-spacing: 0.02em;
+    margin: 32px 50px;
 }
 .nav-text:hover,
 .nav-text:focus,
@@ -93,6 +126,9 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 200px;
+    margin-right: 452px;
+    margin-left: 452px;;
 }
 .button {
     font-size: 16px;
@@ -104,6 +140,7 @@ ul {
     border: 0;
     padding: 10px 32px;
     border-radius: 4px;
+    margin-left: 700px;
 }
 .btn {
     font-size: 16px;
@@ -120,6 +157,10 @@ ul {
     color: var(--white-color);
     background-color: var(--btn-logo-fh-color);
     cursor: pointer;
+}
+.about-item {
+    width: 270px;
+    height: 101px;
 }
 .about {
     font-size: 14px;
@@ -154,6 +195,8 @@ ul {
 .section-two  h2 {
     font-size: 14px;
     font-weight: 700;
+    display: flex;
+    
 }
 .section-two > p {
     font-size: 16px;
