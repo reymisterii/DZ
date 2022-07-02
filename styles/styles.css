@@ -161,6 +161,12 @@ ul {
     margin: 0 auto;
     margin-bottom: 33px;
 }
+.hrborder {
+    border: none;
+    background-color:#ECECEC;
+    color: #ECECEC;
+    height: 2px; 
+} 
 .button {
     font-size: 16px;
     line-height: 1.875;
@@ -211,7 +217,7 @@ ul {
     margin-bottom: 64px;
 }
 .item {
-    border: 1px solid #757575;
+    border: 1px solid #ECECEC;
     margin-bottom: 30px;
 }
 .about-items {
@@ -239,6 +245,8 @@ ul {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--main-nextfon-color);
 }
 .title {
@@ -274,6 +282,7 @@ ul {
     line-height: 1.1875;
     font-weight:500;
     color: var(--text-color);
+    margin-top: 30px;
 }
 .card-title > p {
     font-size: 16px;
