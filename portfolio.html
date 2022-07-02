@@ -19,7 +19,8 @@
   </head>
   <body>
     <!-- шабка сайта -->
-    <div class="conteiner">
+    <header>
+     <div class="conteiner">
       <div class="header-items">
       <nav class="nav-list">
         <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
@@ -40,7 +41,7 @@
         </ul>
       </nav>
       <!-- контакты: меил, мобильный -->
-      <ul>
+      <ul class="ml-first">
         <li class="mailoaddres">
           <a href="mailto:info@devstudio.com" class="mailoaddres"
             >info@devstudio.com</a
@@ -52,10 +53,11 @@
       </ul>
     </div>
   </div>
+</header>
     <!-- заказать услугу -->
     <main>
-      <div class="conteiner">
       <section class="section">
+        <div class="conteiner">
         <h1 class="invisible-text">перечислены кнопки на сайте</h1>
         <ul class="btn-items">
           <li>
@@ -80,7 +82,7 @@
             </button>
           </li>
         </ul>
-      </div>
+        </div>
       </section>
       <section class="section-two">
         <h1 class="invisible-text">портфолио готовых работ</h1>
@@ -91,8 +93,10 @@
               alt="laptop with pictures"
               width="370"
             />
+            <div class="item-list">
             <h2>Технокряк</h2>
             <p>Веб-сайт</p>
+          </div>
           </li>
           <li class="item">
             <img
@@ -100,8 +104,10 @@
               alt="basketball players"
               width="370"
             />
+            <div class="item-list">
             <h2>Постер New Orlean vs Golden Star</h2>
             <p>Дизайн</p>
+          </div>
           </li>
           <li class="item">
             <img
@@ -109,8 +115,10 @@
               alt="poster of seafood restaurant"
               width="370"
             />
+            <div class="item-list">
             <h2>Ресторан Seafood</h2>
             <p>Приложение</p>
+          </div>
           </li>
           <li class="item">
             <img
@@ -118,8 +126,10 @@
               alt="headphones"
               width="370"
             />
+            <div class="item-list">
             <h2>Проект Prime</h2>
             <p>Маркетинг</p>
+          </div>
           </li>
           <li class="item">
             <img
@@ -127,8 +137,10 @@
               alt="boxes"
               width="370"
             />
+            <dir class="item-list">
             <h2>Проект Boxes</h2>
             <p>Приложение</p>
+          </dir>
           </li>
           <li class="item">
             <img
@@ -136,8 +148,10 @@
               alt="monoblock"
               width="370"
             />
+            <dir class="item-list">
             <h2>inspiration has no Borders</h2>
             <p>Веб-сайт</p>
+          </dir>
           </li>
           <li class="item">
             <img
@@ -145,8 +159,10 @@
               alt="book"
               width="370"
             />
+            <div class="item-list">
             <h2>Издание Limited Edition</h2>
             <p>Дизайн</p>
+          </div>
           </li>
           <li class="item">
             <img
@@ -154,8 +170,10 @@
               alt="lab card"
               width="370"
             />
+            <dir class="item-list">
             <h2>Проект LAB</h2>
             <p>Маркетинг</p>
+          </dir>
           </li>
           <li class="item">
             <img
@@ -163,8 +181,10 @@
               alt="computer work"
               width="370"
             />
+            <div class="item-list">
             <h2>Growing Business</h2>
             <p>Приложение</p>
+          </div>
           </li>
         </ul>
       </section>
@@ -172,19 +192,20 @@
     </main>
     <footer class="conteiner-two">
       <div class="conteiner">
+        <div class="end">
       <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
         ><span class="color-one">Web</span
         ><span class="color-white">Studio</span></a
       >
       <address>
         <ul>
-          <li>
+          <li class="ml-next">
             <a href="#" class="mailoaddres-first">
               г. Киев, пр-т Леси Украинки,26</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com" class="mailoaddres"
+            <a href="mailto:info@devstudio.com" class="mailoaddres ml-last"
               >info@devstudio.com</a
             >
           </li>
@@ -195,6 +216,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </div>
     </footer>
   </body>

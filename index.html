@@ -19,55 +19,59 @@
   </head>
   <body>
     <!-- шабка сайта -->
-    <div class="conteiner">
-      <div class="header-items">
-      <nav class="nav-list">
-        <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
-          ><span class="color-one">Web</span
-          ><span class="color-black">Studio</span></a
-        >
-        <ul>
-          <!-- логотип ВЕБ СТУДИЯ -->
-          <li>
-            <a href="./index.html" class="nav-text current">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="nav-text">Портфолио</a>
-          </li>
-          <li>
-            <a href="#" class="nav-text">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- контакты: меил, мобильный -->
-      <ul>
-        <li class="mailoaddres">
-          <a href="mailto:info@devstudio.com" class="mailoaddres"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="mailoaddres">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+    <header>
+      <div class="conteiner">
+        <div class="header-items">
+          <nav class="nav-list">
+            <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
+              ><span class="color-one">Web</span
+              ><span class="color-black">Studio</span></a
+            >
+            <ul>
+              <!-- логотип ВЕБ СТУДИЯ -->
+              <li>
+                <a href="./index.html" class="nav-text current">Студия</a>
+              </li>
+              <li>
+                <a href="./portfolio.html" class="nav-text"
+                  >Портфолио</a
+                >
+              </li>
+              <li>
+                <a href="#" class="nav-text">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- контакты: меил, мобильный -->
+          <ul class="ml-first">
+            <li class="mailoaddres">
+              <a href="mailto:info@devstudio.com" class="mailoaddres"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="mailoaddres"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <!-- заказать услугу -->
     <main>
       <section class="section-one">
-        <h1 class="title-first">ЭФФЕКТИВНЫЕ РЕШЕНИЕ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <h2 class="invisible-text">
-          чуть ниже кнопка для заказа услуги, нажимай!
-        </h2>
-        <button class="button" type="button" value="Заказать услуги">
-          Заказать услуги
-        </button>
+        <div>
+          <h1 class="title-first">ЭФФЕКТИВНЫЕ РЕШЕНИЕ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+          <h2 class="invisible-text"></h2>
+          <button class="button" type="button" value="Заказать услуги">
+            Заказать услуги
+          </button>
+        </div>
       </section>
-      <div class="conteiner">
-        <section class="section-two">
-          <h1 class="invisible-text">
-            ниже перечислены достоинства нашего сервиса
-          </h1>
+      <section class="section-two">
+        <div class="conteiner">
+          <h2 class="invisible-text"></h2>
           <ul class="about-items">
             <li class="about-item">
               <h2 class="about">ВНИМАНИЕ К ДЕТАЛЯМ</h2>
@@ -98,9 +102,11 @@
               </p>
             </li>
           </ul>
-        </section>
-        <section class="section-three">
-          <h1 class="title">Чем мы занимаемся</h1>
+        </div>
+      </section>
+      <section class="section-three">
+        <div class="conteiner">
+          <h2 class="title">Чем мы занимаемся</h2>
           <ul class="cards">
             <li>
               <img
@@ -127,9 +133,11 @@
               />
             </li>
           </ul>
-        </section>
-        <section class="section-four">
-          <h1 class="title">Наша команда</h1>
+        </div>
+      </section>
+      <section class="section-four">
+        <div class="conteiner">
+          <h2 class="title">Наша команда</h2>
           <ul class="card">
             <li class="card-title">
               <img
@@ -173,24 +181,24 @@
             </li>
           </ul>
         </div>
-        </section>
+      </section>
     </main>
     <footer class="conteiner-two">
       <div class="conteiner">
         <div class="end">
       <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
-        ><span class="color-one-end">Web</span
-        ><span class="color-white-end">Studio</span></a
+        ><span class="color-one">Web</span
+        ><span class="color-white">Studio</span></a
       >
       <address>
         <ul>
-          <li>
+          <li class="ml-next">
             <a href="#" class="mailoaddres-first">
               г. Киев, пр-т Леси Украинки,26</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com" class="mailoaddres"
+            <a href="mailto:info@devstudio.com" class="mailoaddres ml-last"
               >info@devstudio.com</a
             >
           </li>
@@ -201,7 +209,7 @@
           </li>
         </ul>
       </address>
-    </div>
+      </div>
     </div>
     </footer>
   </body>
