@@ -34,9 +34,6 @@ body {
     display: flex;
     align-items: center;
 }
-.about-items {
-    padding-top: 94px;
-}
 .logo {
     font-size: 26px;
     line-height:1.19231;
@@ -96,11 +93,9 @@ body {
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-right: 50px;
-    margin-top: 32px;
 } 
-.nav-text:last-child){
-    margin-right: 0px;
+.nav-text:last-child {
+    margin-right: 50px;
 }
 .nav-text:hover,
 .nav-text:focus,
@@ -142,11 +137,17 @@ ul {
     margin: 0;
     padding: 0;
 }
+header {
+    border-bottom: 2px solid #ECECEC;
+}
 .mailoaddres,
 .mailoaddres-first,
 .nav-text  {
     font-style: normal;
     text-decoration: none;
+}
+.section {
+    padding-top: 94px;
 }
 .title-first {
     font-size: 44px;
@@ -161,12 +162,6 @@ ul {
     margin: 0 auto;
     margin-bottom: 33px;
 }
-.hrborder {
-    border: none;
-    background-color:#ECECEC;
-    color: #ECECEC;
-    height: 2px; 
-} 
 .button {
     font-size: 16px;
     line-height: 1.875;
@@ -184,7 +179,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 .btn {
@@ -196,10 +190,9 @@ ul {
     border: 0;
     padding: 6px 22px;
     border-radius: 4px;
-    margin-right: 8px;
 }
-.btn:not(:last-child) {
-    margin-right: 0px;
+.btn:last-child {
+    margin-right: 8px;
 }
 .btn:hover,
 .btn:focus {
@@ -214,7 +207,7 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 64px;
+    margin-bottom: 94px;
 }
 .item {
     border: 1px solid #ECECEC;
@@ -237,15 +230,10 @@ ul {
     color: var(--address-color);
     font-weight:400;
     margin-top: 10px;
-    line-height: normal;
+    line-height: 1.7142857;
 }
 .section-four {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 94px;
+    padding-top: 85px;
     padding-bottom: 94px;
     background-color: var(--main-nextfon-color);
 }
@@ -255,7 +243,6 @@ ul {
     font-weight:700;
     color: var(--text-color);
     text-align:center;
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 .cards {
@@ -288,17 +275,6 @@ ul {
     font-size: 16px;
     line-height: 1.1875;
     color: var(--address-color);
-}
-.section-two  h2 {
-    font-size: 14px;
-    font-weight: 700;
-    display: flex;
-}
-.section-two > p {
-    font-size: 16px;
-}
-.section-three {
-    
 }
 .color-white {
     color: var(--white-color);
@@ -354,19 +330,9 @@ ul {
 .end {
     padding-top: 60px;
 }
-.ml-next,
-.ml-last {
-    padding-bottom: 9px;
-}
-.ml-next:last-child {
-    padding-bottom: 0;
+.ml-next:not(:last-child) {
+    margin-bottom: 9px;
 }
 .ml-next:first-child {
     padding-top: 20px;
 }
-/* .mailoaddres .last-mi-list {
-    padding-bottom: 9px;
-}
-.mailoaddres .ml-last {
-    padding-bottom: 9px;
-} */ Щомусь не працює відступ
