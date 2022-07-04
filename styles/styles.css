@@ -52,10 +52,6 @@ body {
     color: var(--logo-color);
     font-weight: 700;
 } 
-.nav-list ul {
-    padding: 0;
-    margin-top: 32px;
-}
 .ml-first {
     margin-left: auto;
     display: flex;
@@ -68,6 +64,7 @@ body {
 }
 .nav-list {
     display: flex;
+    align-items: center;
 }
 .nav-list li {
     display: inline;
@@ -78,6 +75,7 @@ body {
     padding-bottom: 200px;
 }
 .conteiner-two {
+    padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--main-fon-color);
     text-decoration: none;
@@ -94,13 +92,13 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
 } 
-.nav-text:last-child {
-    margin-right: 50px;
-}
 .nav-text:hover,
 .nav-text:focus,
 .nav-text:active {
     color: var(--btn-logo-fh-color);
+}
+.nav-text-nav {
+    margin-right: 50px;
 }
 .nav-text.current {
     color: var(--btn-logo-fh-color);
@@ -115,10 +113,11 @@ body {
     font-weight:normal;
     font-style: normal;
     letter-spacing: 0.02em;
-    display: inline-fle;
+}
+.mailoaddres-nav {
     margin-right: 50px;
 }
-.mailoaddres:last-child) {
+.mailoaddres-nav:last-child {
     margin-right: 0;
 }
 .mailoaddres-first {
@@ -138,7 +137,8 @@ ul {
     padding: 0;
 }
 header {
-    border-bottom: 2px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    box-shadow: 0 4px 4px 0 rgba (0, 0, 0, 0.25);
 }
 .mailoaddres,
 .mailoaddres-first,
@@ -191,8 +191,11 @@ header {
     padding: 6px 22px;
     border-radius: 4px;
 }
-.btn:last-child {
+.btn-nav {
     margin-right: 8px;
+}
+.btn-nav:last-child {
+    margin-right: 0;
 }
 .btn:hover,
 .btn:focus {
@@ -219,6 +222,7 @@ header {
 .about-item {
     width: 270px;
     height: 101px;
+    margin-right: 30px;
 }
 .about {
     font-size: 14px;
@@ -252,14 +256,15 @@ header {
     height: auto;
 }
 .card-image {
-
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .card {
     display: flex;
 }
 .card-title {
     width: 270px;
-    height: 368px;
     background-color: var(--white-color);
     margin-right: 30px;
     text-align: center;
@@ -270,11 +275,13 @@ header {
     font-weight:500;
     color: var(--text-color);
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 .card-title > p {
     font-size: 16px;
     line-height: 1.1875;
     color: var(--address-color);
+    margin-bottom: 30px;
 }
 .color-white {
     color: var(--white-color);
@@ -321,18 +328,16 @@ header {
     color: var(--white-color);
     margin-top: 60px;
 }
-.mailoaddres-first > .down {
-    margin-bottom: 20px;
-}
-.down-next {
-    margin-bottom: 9px;
-}
-.end {
-    padding-top: 60px;
-}
-.ml-next:not(:last-child) {
+.ml-next {
     margin-bottom: 9px;
 }
 .ml-next:first-child {
-    padding-top: 20px;
+    margin-top: 20px;
+}
+.card-title:last-child,
+.nav-text-nav:last-child,
+.mailoaddres-nav:last-child,
+.about-item:last-child,
+.ml-next:first-child {
+    margin-right: 0;
 }
