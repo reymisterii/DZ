@@ -23,7 +23,7 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
 }
-.conteiner {
+.container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -74,7 +74,7 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
 }
-.conteiner-two {
+.container-two {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--main-fon-color);
@@ -108,27 +108,27 @@ body {
     margin-right: auto;
     display: flex;
 }
-.mailoaddres {
+.mail-addres {
     color: var(--address-color);
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.02em;
 }
-.mailoaddres-nav {
+.mail-addres-nav {
     margin-right: 50px;
 }
-.mailoaddres-nav:last-child {
+.mail-addres-nav:last-child {
     margin-right: 0;
 }
-.mailoaddres-first {
+.mail-addres-first {
     font-style: normal;
     text-decoration: none;
     line-height: 1.7142857;
     color: var(--white-color);
     font-weight:400;
 }
-.mailoaddres:hover,
-.mailoaddres:focus {
+.mail-addres:hover,
+.mail-addres:focus {
     color: var(--btn-logo-fh-color);
 }
 ul {
@@ -140,8 +140,8 @@ header {
     border-bottom: 1px solid #ECECEC;
     /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
 }
-.mailoaddres,
-.mailoaddres-first,
+.mail-addres,
+.mail-addres-first,
 .nav-text  {
     font-style: normal;
     text-decoration: none;
@@ -236,7 +236,7 @@ header {
     line-height: 1.7142857;
 }
 .section-four {
-    padding-top: 85px;
+    padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--main-nextfon-color);
 }
@@ -287,11 +287,6 @@ header {
 }
 .color-white {
     color: var(--white-color);
-}
-.pageimg {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 .item > h2 {
     font-size: 18px;
@@ -346,7 +341,7 @@ header {
 }
 .card-title:last-child,
 .nav-text-nav:last-child,
-.mailoaddres-nav:last-child,
+.mail-addres-nav:last-child,
 .about-item:last-child,
 .ml-next:first-child {
     margin-right: 0;
