@@ -124,9 +124,9 @@ body {
     font-style: normal;
     letter-spacing: 0.02em;
 }
-.icon-phoun {
-    width: 16px;
-    height: 12px;
+.icon-phoun::before {
+    width: 40px;
+    height: 40px;
     background-image:url(/imeges/phoun.svg);
 }
 .mail-addres-nav {
