@@ -40,40 +40,12 @@
             </ul>
           </nav>
           <!-- контакты: меил, мобильный -->
-          <!-- <defs>
-            <svg width="10" height="16" xmlns="./">
-              <symbol id="delete" viewBox="0 0 32 32">
-             <path d="M8.5 0h-7C.673 0 0 .673 0 1.5v13c0 .827.673 1.5 1.5 
-                1.5h7c.827 0 1.5-.673 1.5-1.5v-13C10 .673 9.327 0 8.5 0Zm-7 1h7a.
-                5.5 0 0 1 
-                  .5.5V12H1V1.5a.5.5 0 0 1 .5-.5Zm7 14h-7a.5.5 0 0 1-.5-.5V13h8v1.
-                  5a.5.5 0 0 1-.5.5Z"/>
-                </symbol>
-                </svg>
-
-          </defs> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <ul class="ml-first">
             <li class="mail-addres-nav"> 
               <a href="mailto:info@devstudio.com" class="mail-addres"
                 > 
-                <svg class="envelope" width="16" height="12">
-                  <use xlinkhref="twitter.svg#twitter"></use>
+                <svg class="mail-addres-icon" width="16" height="12">
+                  <use href="./imeges/symbol-defs.svg#icon-envelope"></use>
                </svg>
                     info@devstudio.com</a
               >
@@ -81,8 +53,8 @@
             <li class="mailo-addres-nav">
               <a href="tel:+380961111111" class="mail-addres"
                 >
-                <svg class="phoun" width="10" height="16">
-                  <use xlink:href="phoun.svg#phoun"></use>
+                <svg class="mail-addres-icon" width="10" height="16">
+                  <use href="./imeges/symbol-defs.svg#icon-phoun"></use>
                </svg>
                 +38 096 111 11 11</a
               >
@@ -103,51 +75,67 @@
         <div class="container">
           <ul class="about-items">
             <li class="about-item">
-              <svg class="sprite-one" width="70" height="70">
-              <use href="./imeges/antenna.svg" class="antenna"></use>
+              <div class="about-item-first">
+                <svg class="about-item-icon-line" width="70" height="70">
+              <use href="./imeges/symbol-defs.svg#icon-antenna" class="antenna icon"></use>
               </svg>
-              <h2 class="about">ВНИМАНИЕ К ДЕТАЛЯМ</h2>
+              </div>
+              <div class="about-box-next">
+                <h3 class="about">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
               <p class="about-description">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
+              </div>
             </li>
             <li class="about-item">
-              <svg class="sprite-one clock">
-              <!-- <use href="./imeges/clock.svg" width="70" height="70"></use> -->
+              <div class="about-item-first">
+                <svg class="about-item-icon-line" width="70" height="70">
+              <use href="./imeges/symbol-defs.svg#icon-clock" class="icon-clock icon"></use>
               </svg>
-              <h2 class="about">ПУНКТУАЛЬНОСТЬ</h2>
+              </div>
+              <div class="about-box-next">
+                <h3 class="about">ПУНКТУАЛЬНОСТЬ</h3>
               <p class="about-description">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечот за собой.
               </p>
+              </div>
             </li>
             <li class="about-item">
-              <svg class="sprite-one diagram">
-              <!-- <use href="./imeges/diagram.svg" width="70" height="70"></use> -->
+              <div class="about-item-first">
+                <svg class="about-item-icon-line" width="70" height="70">
+              <use href="./imeges/symbol-defs.svg#icon-diagram" class="icon-diagram icon"></use>
               </svg>
-              <!-- <h2 class="about">ПЛАНИРОВАНИЕ</h2> -->
+              </div>
+              <div class="about-box-next">
+                 <h3 class="about">ПЛАНИРОВАНИЕ</h3>
               <p class="about-description">
                 Ровным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
+              </div>
             </li>
             <li class="about-item">
-              <svg class="sprite-one astronaut">
-              <!-- <use href="./imeges/astronaut.svg" width="70" height="70"></use> -->
+              <div class="about-item-first">
+                <svg class="about-item-icon-line" width="70" height="70">
+              <use href="./imeges/symbol-defs.svg#icon-diagram" class="icon-diagram icon"></use>
               </svg>
-              <h2 class="about">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h2>
+              </div>
+              <div class="about-box-next">
+                <h3 class="about">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
               <p class="about-description">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="title">Чем мы занимаемся</h2>
+          <h2 class="title retreat">Чем мы занимаемся</h2>
           <ul class="cards">
             <li>
               <img
@@ -179,13 +167,7 @@
       <section class="section">
         <div class="section-four">
           <div class="container">
-            <h2 class="title">
-              <svg class="icon" width="16" height="12">
-                  <use xlink:href="twitter.svg#twitter"></use>
-               </svg>
-              
-              
-              Наша команда</h2>
+            <h2 class="title">Наша команда</h2>
             <ul class="card">
               <li class="card-title">
                 <img
@@ -196,6 +178,38 @@
                 />
                 <h2>Игорь Демьяненко</h2>
                 <p>Product Desinger</p>
+                <div class="card-image-icons">
+                  <ul class="card-image-icons-list">
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-instagram" class="icon-instagram"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-twitter" class="icon-twitter"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-facebook" class="icon-facebook"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-linkedin" class="icon-linkedin"></use>
+              </svg>
+                  </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="card-title">
                 <img
@@ -206,6 +220,38 @@
                 />
                 <h2>Ольга Репина</h2>
                 <p>Frontend Developer</p>
+                <div class="card-image-icons">
+                  <ul class="card-image-icons-list">
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-instagram" class="icon-instagram"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-twitter" class="icon-twitter"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-facebook" class="icon-facebook"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-linkedin" class="icon-linkedin"></use>
+              </svg>
+                  </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="card-title">
                 <img
@@ -216,6 +262,38 @@
                 />
                 <h2>Игорь Демьяненко</h2>
                 <p>Marketing</p>
+                <div class="card-image-icons">
+                  <ul class="card-image-icons-list">
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-instagram" class="icon-instagram"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-twitter" class="icon-twitter"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-facebook" class="icon-facebook"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-linkedin" class="icon-linkedin"></use>
+              </svg>
+                  </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="card-title">
                 <img
@@ -226,14 +304,99 @@
                 />
                 <h2>Михаил Ермаков</h2>
                 <p>UI Designer</p>
+                <div class="card-image-icons">
+                  <ul class="card-image-icons-list">
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-instagram" class="icon-instagram"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-twitter" class="icon-twitter"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-facebook" class="icon-facebook"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-linkedin" class="icon-linkedin"></use>
+              </svg>
+                  </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
             </ul>
           </div>
         </div>
-      </section>
+        </section>
+        <section class="section">
+          <div class="container">
+          <h2 class="title">Постоянные клиенты</h2>
+          <div>
+            <ul class="card-image-icons-list-last">
+              <li class="list-border">
+                <a href="#">
+                    <svg class="about-item-icon-next" width="106" height="60">
+              <use href="./imeges/symbol-defs.svg#icon-group" class="icon-group"></use>
+              </svg>
+                  </a>
+              </li>
+              <li class="list-border">
+                <a href="#">
+                    <svg class="about-item-icon-next" width="106" height="60">
+              <use href="./imeges/symbol-defs.svg#icon-group2" class="icon-group2"></use>
+              </svg>
+                  </a>
+              </li>
+              <li class="list-border">
+                <a href="#">
+                    <svg class="about-item-icon-next" width="106" height="60">
+              <use href="./imeges/symbol-defs.svg#icon-group3" class="icon-group3"></use>
+              </svg>
+                  </a>
+              </li>
+              <li class="list-border">
+                <a href="#">
+                    <svg class="about-item-icon-next" width="106" height="60">
+              <use href="./imeges/symbol-defs.svg#icon-group4" class="icon-group4"></use>
+              </svg>
+                  </a>
+              </li>
+              <li class="list-border">
+                <a href="#">
+                    <svg class="about-item-icon-next" width="106" height="60">
+              <use href="./imeges/symbol-defs.svg#icon-group5" class="icon-group5"></use>
+              </svg>
+                  </a>
+              </li>
+              <li class="list-border">
+                <a href="#">
+                    <svg class="about-item-icon-next" width="106" height="60">
+              <use href="./imeges/symbol-defs.svg#icon-Object" class="icon-Object"></use>
+              </svg>
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </section>
     </main>
     <footer class="container-two">
       <div class="container">
+        <div class="container-next">
+            <div>
           <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
             ><span class="color-one">Web</span
             ><span class="color-white">Studio</span></a
@@ -258,6 +421,41 @@
             </ul>
           </address>
         </div>
+        <div class="card-image-icons-end">
+          <h2 class="title-next">присоединяйтесь</h2>
+                  <ul class="icons-list-end">
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-instagram" class="icon-instagram"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-twitter" class="icon-twitter"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-facebook" class="icon-facebook"></use>
+              </svg>
+                  </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                    <svg class="about-item-icon" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-linkedin" class="icon-linkedin"></use>
+              </svg>
+                  </a>
+                    </li>
+                  </ul>
+                </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
