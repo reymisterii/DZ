@@ -124,21 +124,7 @@ body {
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.02em;
-    po
 }
-/* .icon-phoun::before {
-    width: 16px;
-    height: 12px;
-    background-image:url(/imeges/phoun.svg);
-    fill: var(--btn-logo-fh-color);
-    display: inline-flex;
-    height: 64px;
-    width: 64px;
-    border-radius: 50%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat
-} */
 .phoun {
     display: inline-block;
     width: 10px;
@@ -194,7 +180,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-header {
+.header-item {
     border-bottom: 1px solid #ECECEC;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
@@ -284,17 +270,6 @@ header {
     border-radius: 4px;
     margin-bottom: 30px;
 }
-/* .about-item::after {
-    display: block;
-    content: ;
-    height: 120px;
-    width: 270px;
-    background-image: url(/imeges/antenna.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--main-nextfon-color);
-} */
 .about {
     font-size: 14px;
     line-height: 1.142857;
@@ -315,39 +290,6 @@ header {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-/* .sprite-one:nth-child(1) {
-    height: 70px;
-    width: 70px;
-    background-image: url(/imeges/antenna.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.sprite-one:nth-child(2) {
-    height: 70px;
-    width: 70px;
-    background-image: url(/imeges/clock.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.sprite-one:nth-child(3) {
-    height: 70px;
-    width: 70px;
-    background-image: url(/imeges/diagram.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.sprite-one:nth-child(4) {
-    height: 70px;
-    width: 70px;
-    background-image: url(/imeges/astronaut.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
 .section-four {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -486,7 +428,7 @@ header {
 .about-item-icon:focus,
 .about-item-icon-next:hover,
 .about-item-icon-next:focus {
-    color: var(--white-color);
+    fill: var(--white-color);
     background-color: var(--btn-logo-fh-color);
     cursor: pointer;
 } 
